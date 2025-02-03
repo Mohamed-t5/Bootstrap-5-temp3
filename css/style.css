@@ -1,0 +1,207 @@
+:root {
+    --font-semi: 600;
+    --main-color: #069C54;
+    --Second-color: #de3b49;
+    --title-color: #161212;
+    --body-color: #fefbfb;
+    --font-family: "Poppins", sans-serif;
+    --big-font-size: 4.2rem;
+    --h2-font-size: 2.1rem;
+    --normal-font-size: 1rem;
+}
+body {
+    font-family: var(--font-family);
+}
+.navbar-nav .nav-link {
+    color: #000000; 
+    border-color: transparent; 
+    font-weight: 600;
+    font-size: 20px;
+    margin-right: 2px;
+    margin: 10px;
+    transition: color 0.3s ease
+}
+nav {
+   background-color: white; 
+}
+.navbar-nav .nav-link.active {
+    color: var(--main-color);
+}
+.navbar-nav .nav-link:hover {
+    color: var(--main-color);
+   
+}
+.home .image img {
+    width: 100%;
+    max-width: 400px; 
+    height: auto;
+    padding-top: 20px;
+}
+
+.home .text h1 {
+    font-size: 64px;
+    color: var(--main-color);
+}
+.home .text p {
+    font-size: 30px; 
+    line-height: 1.5;
+    margin: 10px;
+}
+@media (max-width: 991px) {
+    .home .image img {
+        max-width: 100%; 
+    }
+}
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 50px;
+}
+
+.hero-content {
+    max-width: 500px;
+    padding-left: 40px;
+}
+
+.hero-content h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+.hero-content p {
+    padding-top: 15px;
+}
+.btn-custom:hover {
+    background-color: var(--main-color);
+}
+.image-container img {
+    border-radius: 10px;
+    max-width: 100%;
+}
+.btn-custom {
+    background-color: var(--main-color);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    border: 2px solid var(--main-color);
+    transition: all 0.3s ease-in-out;
+
+}
+.btn-custom:hover {
+    background-color: white;
+    color: var(--main-color);
+    border: 2px solid var(--main-color);
+    box-shadow: 0px 0px 10px rgba(40, 167, 69, 0.5); 
+}
+.container .service-item{
+    padding: 60px;
+}
+.menu-card {
+    background: #fff;
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
+    transition: 0.3s;
+    border: var(--main-color) 0.1px solid
+}
+
+.menu-card img {
+    width: 100%;
+    border-radius: 10px;
+    
+}
+
+.menu-info {
+    padding: 15px 0;
+}
+
+.menu-info h4 {
+    font-weight: bold;
+}
+
+.price {
+    font-weight: bold;
+    color: #333;
+}
+
+.cart-btn {
+    position: absolute;
+    bottom: -1px;
+    right: -0.1px;
+    background: var(--main-color);
+    color: white;
+    border: none;
+    border-radius: 30%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+
+.nero-section {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-wrap: wrap;
+    padding: 20px 0;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.hero-content {
+    text-align: left;
+}
+
+span img {
+    max-width: 150px;
+    margin-right: 10px;
+}
+
+@media (max-width: 992px) {
+    .nero-section {
+        flex-direction: column;
+        align-items: start;
+        text-align: left;
+    }
+    
+    .phone, .speech {
+        width: 100%;
+        text-align: left;
+    }
+    
+    span img {
+        max-width: 120px;
+    }
+}
+
+
+.social-icons a {
+    font-size: 18px;
+    color: black;
+    margin-right: 10px;
+    text-decoration: none;
+}
+.social-icons a:hover {
+    color: #28a745;
+}
+.row ul li {
+    color: #949494;
+    margin-top: 5px;
+}
+.row ul li:hover {
+    color: var(--main-color);
+}
+
+
